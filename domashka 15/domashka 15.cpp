@@ -67,7 +67,7 @@ void task3(const string& inputFile) {
 		if (temp == word) count++;
 	}
 
-	cout << "Слово \"" << word << "\" зустрічається " << count << " раз(и).\n";
+	cout << "Слово \"" << word << "\" зустрічається " << count << " раз.\n";
 	fin.close();
 }
 
@@ -97,6 +97,7 @@ void task4(const string& inputFile, const string& outputFile) {
 	fout.close();
 	cout << "Заміна виконана.\n";
 }
+
 int main()
 {
 	system("chcp 1251>null");
